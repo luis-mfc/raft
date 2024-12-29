@@ -1,0 +1,37 @@
+version: "3"
+services:
+  follower0:
+    container_name: follower0
+    build: 
+      context: .
+    network_mode: "host"
+    command: java FollowerMain 0
+    ports:
+      - 3000:3000
+
+  follower1:
+    container_name: follower1
+    build: 
+      context: .
+    network_mode: "host"
+    command: java FollowerMain 1
+    ports:
+      - 3001:3001
+
+  follower2:
+    container_name: follower2
+    build: 
+      context: .
+    network_mode: "host"
+    command: java FollowerMain 2
+    ports:
+      - 3002:3002
+
+  follower3:
+    container_name: follower3
+    build: 
+      context: .
+    network_mode: "host"
+    command: java FollowerMain 3
+    ports:
+      - 3003:3003
