@@ -1,5 +1,5 @@
 # Raft protocol implementation
-This is a example implementation of the raft consensus protocol:
+This is a example implementation of the raft consensus protocol for educations proposes only:
 - https://raft.github.io/raft.pdf
 - https://raft.github.io/
 
